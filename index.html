@@ -5,28 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monda&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="nav">
+        <div class="button-hamburger">
+            <span id="nav-icon"></span>
+        </div>
         <ul class="nav-list">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Projects</li>
+            <li>Contact</li>
         </ul>
     </div>
     <div class="container">
-        <div class="home"></div>
-        <div class="about-me"></div>
-        <div class="my-projects"></div>
+        <div class="home">Home</div>
+        <div class="about-me">About</div>
+        <div class="my-projects">Projects</div>
         <div class="contact">
-            <form action="" method="post">
-                <label for="full-name"></label>
-                <input type="text" name="full-name" id="full-name">
-                <label for="email"></label>
-                <input type="email" name="email" id="email">
-                <label for="message"></label>
-                <input type="text" name="message" id="message">
+            <h1>Contact</h1>
+            <form action="" method="post" class="contact-form">
+                <label for="full-name">Full name</label>
+                <input type="text" name="full-name" id="full-name"><br />
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email"><br />
+                <label for="message">Message</label>
+                <input type="text" name="message" id="message"><br />
             </form>
         </div>
     </div>
