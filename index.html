@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Monda&family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link href="fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="fontawesome/css/brands.css" rel="stylesheet">
+    <link href="fontawesome/css/solid.css" rel="stylesheet">
     
 </head>
 <body>
@@ -32,12 +35,21 @@
                     <span class="text">front-end developer...</span> 
                 </p><br />
                 <p>
-                    I always start my designing with the mobile version
+                    I always start writing with the mobile version
                 </p>
             </div>
         </div>
         <div class="about-me box">
             <h1>About</h1>
+            <p><b>list of technologies that I can use</b></p>
+            <ul class="list-technology">
+                <li><i class="fa-brands fa-html5"></i> HTML </li>
+                <li><i class="fa-brands fa-css3-alt"></i> CSS </li>
+                <li><i class="fa-brands fa-js"></i> JAVASCRIPT </li>
+                <li><i class="fa-brands fa-php"></i> PHP </li>
+                <li><i class="fa-brands fa-github"></i> GITHUB </li>
+                <li><i class="fa-solid fa-database"></i> SQL </li>
+            </ul>
             <div class="content-about">
 
             </div>
@@ -45,18 +57,24 @@
         <div class="my-projects box">
             <h1>Projects</h1>
             <div class="content-projects">
-
+                <p>
+                    I haven't done bigger projects yet,
+                    but I have published a few smaller ones on github
+                </p>
             </div>
         </div>
         <div class="contact box">
             <h1>Contact</h1>
+            
             <form action="" method="post" class="contact-form">
-                <label for="full-name">Full name</label>
+                <fieldset>
+                    <label for="full-name">Full name</label>
                 <input type="text" name="full-name" id="full-name"><br />
                 <label for="email">Email</label>
                 <input type="email" name="email" id="email"><br />
                 <label for="message">Message</label>
                 <input type="text" name="message" id="message"><br />
+                </fieldset>
             </form>
         </div>
     </div>

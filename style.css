@@ -13,19 +13,20 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-image: var(--mainColor);
     color: whitesmoke;
-    height: 300vh;
+    height: 400vh;
 }
 
 /*mobile*/
 @media (max-width:600px) {
     .nav-list {
+        position: fixed;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         list-style-type: none;
-        position: fixed;
-        left: px;
+        top:0px;
+        left: 0px;
         width: 100vw;
         height: 100vh;
         background-color: black;
@@ -98,6 +99,7 @@ body {
     h1{
         color:black;
         margin:10px;
+        text-shadow: 5px 5px 18px black;
     }
 
     .home h1{
@@ -108,17 +110,37 @@ body {
         padding:15px;
         text-align: left;
         font-size:20px;
-        margin-top:20px;
-        
+        margin-top:100px;
     }
 
     .box{
+        color:black;
+        font-weight: 700;
         box-sizing: border-box;
         width:100%;
-        height:400px;
+        height:600px;
         border: 3px dashed black;
         padding:15px;
-        margin-bottom: 150px;
+        margin-bottom: 250px;
+    }
+
+    .fa-brands, .fa-solid{
+        
+        width:35px;
+    } 
+
+
+    ul.list-technology{
+        font-size:1.5rem;
+        height:80%;
+        list-style-type: none;
+        display:flex;
+        flex-direction: column;
+        justify-content:space-around;
+    } 
+
+    .about{
+    
     }
 
     
